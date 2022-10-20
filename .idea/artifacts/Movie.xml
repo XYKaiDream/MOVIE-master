@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Movie">
+    <output-path>$PROJECT_DIR$/out/artifacts/Movie</output-path>
+    <root id="archive" name="Movie.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MOVIE" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/javax.servlet-api-3.1.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.18.jar" />
+          <element id="library" level="project" name="c3p0-0.9.1.2" />
+          <element id="library" level="project" name="javax.servlet-api-3.1.0" />
+          <element id="library" level="project" name="jstl-1.2" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.18" />
+          <element id="library" level="project" name="commons-lang3-3.9" />
+          <element id="library" level="project" name="commons-fileupload-1.2.1" />
+          <element id="library" level="project" name="commons-io-1.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="MOVIE/web/Web" />
+    </root>
+  </artifact>
+</component>
